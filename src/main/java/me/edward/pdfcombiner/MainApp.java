@@ -28,7 +28,7 @@ public class MainApp extends Application {
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(980);
         primaryStage.setMinHeight(450);
-        primaryStage.setTitle("PDF Combiner, Developed by Eduard M");
+        primaryStage.setTitle("PDF Combiner, Developed by Eduard M.");
         primaryStage.show();
         MainPage mainPage = mainPageFXML.getController();
         mainPage.positionElements(primaryStage);
